@@ -1,0 +1,104 @@
+@charset "UTF-8";
+html {
+  /* stylelint-disable-line */
+  box-sizing: border-box; }
+
+main {
+  /* stylelint-disable-line */
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  font-size: 16px; }
+
+section {
+  /* stylelint-disable-line */
+  margin-top: 10em;
+  margin-bottom: 10em; }
+
+/************************************ Um FooÞjónusta *******************************************/
+.upplysingar .fooAuglysingar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .upplysingar .fooAuglysingar__foo {
+    display: flex;
+    flex-direction: column; }
+    .upplysingar .fooAuglysingar__foo__umFoo {
+      margin-top: 2em;
+      margin-bottom: 2em; }
+      .upplysingar .fooAuglysingar__foo__umFoo__meiraUmFoo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: -8px;
+        margin-right: 50px; }
+        .upplysingar .fooAuglysingar__foo__umFoo__meiraUmFoo__checkImg {
+          max-width: 2em; }
+        .upplysingar .fooAuglysingar__foo__umFoo__meiraUmFoo__thjonusta {
+          font-family: 'Roboto Slab';
+          font-size: 1.5em;
+          padding-left: 8px; }
+      .upplysingar .fooAuglysingar__foo__umFoo__utskyringar {
+        margin-top: -40px;
+        padding-left: 32px;
+        line-height: 1.5em; }
+        .upplysingar .fooAuglysingar__foo__umFoo__utskyringar__texti {
+          margin-right: 3em; }
+  .upplysingar .fooAuglysingar__mynd__img {
+    max-width: 36.77em;
+    /* 73% */
+    border: 1px solid black;
+    margin-right: 0;
+    margin-top: 3em; }
+
+/*********************************** Mynd og Comment *******************************************/
+.personur .myndirOgComment {
+  display: flex; }
+  .personur .myndirOgComment__mc {
+    width: 400px;
+    /* 1200/3=400px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    .personur .myndirOgComment__mc__myndir {
+      width: 400px;
+      height: 240px;
+      display: flex;
+      justify-content: center; }
+      .personur .myndirOgComment__mc__myndir__img {
+        border-radius: 50%;
+        max-width: 15em; }
+    .personur .myndirOgComment__mc__comment__hugsun {
+      font-size: 24px; }
+      .personur .myndirOgComment__mc__comment__hugsun--2 {
+        margin-top: 50px; }
+      .personur .myndirOgComment__mc__comment__hugsun--3 {
+        margin-top: 50px; }
+    .personur .myndirOgComment__mc__comment__nafn--2 {
+      margin-top: 32px; }
+    .personur .myndirOgComment__mc__comment__nafn--3 {
+      margin-top: 32px; }
+    .personur .myndirOgComment__mc__comment__askrift {
+      font-size: 13px;
+      color: grey;
+      margin-top: -10px; }
+      .personur .myndirOgComment__mc__comment__askrift--2 {
+        margin-top: -10px; }
+      .personur .myndirOgComment__mc__comment__askrift--3 {
+        margin-top: -10px; }
+
+/************************************** Kaupatakkid ********************************************/
+.kauptu .textiOgTakkid {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .kauptu .textiOgTakkid__texti__spurning {
+    font-family: 'Roboto Slab';
+    font-style: 25px; }
+  .kauptu .textiOgTakkid .takkid__kaupa {
+    font-style: 32px;
+    color: white;
+    padding: 0.5em 2.5em 0.5em 2.5em;
+    border-radius: 5px;
+    background-color: #696969; }
