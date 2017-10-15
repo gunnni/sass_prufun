@@ -1,7 +1,9 @@
 .class__student {
-  background: yellow; }
-  .class__student p {
-    color: red; }
+  background: #eee; }
+  .class__student .text2 {
+    color: #33c; }
 
-b {
-  color: red; }
+.class__teacher {
+  background: #bbb; }
+  .class__teacher .text1 {
+    color: #f00; }
