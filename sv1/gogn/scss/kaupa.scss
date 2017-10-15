@@ -1,25 +1,19 @@
 /************************************** Kaupatakkid ********************************************/
-.kauptu {
-    .textiOgTakkid {
+.texti__spurning {
+  font-family: "Roboto Slab";
+  font-size: 25px;
+}
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+.takkid__kaupa {
+  padding: 0.5em 2.5em;
+  font-size: 32px;
+  color: #fff;
+  background-color: #696969;
+  border-radius: 5px;
+}
 
-        &__texti {
-            &__spurning {
-                font-family: 'Roboto Slab';
-                font-style: 25px;
-            }
-        }
-        .takkid {
-            &__kaupa {
-                font-style: 32px;
-                color: white;
-                padding: 0.5em 2.5em 0.5em 2.5em;
-                border-radius: 5px;
-                background-color: #696969;
-            }
-        }
-    }
+.textiOgTakkid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
