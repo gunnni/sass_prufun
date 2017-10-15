@@ -15,6 +15,15 @@ section {
   margin-top: 10em;
   margin-bottom: 10em; }
 
+.haus {
+  max-width: 1200px; }
+
+.vinstraMegin__vListi {
+  display: flex; }
+
+.efriHluti {
+  display: flex; }
+
 /************************************ Um FooÞjónusta *******************************************/
 .mynd__img {
   max-width: 36.77em;
@@ -45,10 +54,10 @@ section {
   justify-content: flex-start;
   align-items: center;
   margin-right: 50px;
-  margin-left: -8px; }
+  margin-left: -2px; }
 
 .umFoo__utskyringar {
-  padding-left: 32px;
+  padding-left: 38px;
   margin-top: -40px;
   line-height: 1.5em; }
 

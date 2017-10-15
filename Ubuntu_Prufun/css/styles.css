@@ -1,2 +1,17 @@
-.text {
-  background-color: #eee; }
+.haus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.vinstraMegin__vListi {
+  display: flex;
+}
+
+.efriHluti {
+  display: flex;
+  background: grey;
+}
+
+.tengja {
+    text-decoration: none;
+}
