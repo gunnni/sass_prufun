@@ -1,7 +1,7 @@
 header {
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url('forsida-1200.png');
+    background-image: url('../bg.jpg');
     font-family: 'Roboto Slab', serif;
 }
 
