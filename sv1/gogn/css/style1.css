@@ -16,7 +16,8 @@ section {
   margin-bottom: 10em; }
 
 .haus {
-  max-width: 1200px; }
+  max-width: 1200px;
+  height: 33.33333%; }
 
 .vinstraMegin__vListi {
   display: flex; }
