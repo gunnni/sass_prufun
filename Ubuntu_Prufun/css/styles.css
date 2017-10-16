@@ -1,17 +1,36 @@
+header {
+    background-image: url('forsida-1200.png');
+}
 .haus {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .vinstraMegin__vListi {
   display: flex;
 }
 
 .efriHluti {
   display: flex;
+  justify-content: space-between;
   background: grey;
+  background-clip: border-box;
 }
 
-.tengja {
-    text-decoration: none;
+.haegraMegin__hListi, .vinstraMegin__vListi {
+    list-style-type: none; /* nota til að eyða dot fyrir framan listi */
+}
+
+.haegraMegin__hListi {
+    width: 150px;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.vinstraMegin__vListi {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
 }
