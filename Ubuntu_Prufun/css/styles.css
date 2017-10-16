@@ -1,7 +1,9 @@
 header {
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url('../bg.jpg');
+    background: url(../bg.jpg) no-repeat fixed;
+    background-size: 100%;
+    background-position: center;
     font-family: 'Roboto Slab', serif;
 }
 

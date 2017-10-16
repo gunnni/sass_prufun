@@ -1,11 +1,62 @@
-.haus {
+.header {
   max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Roboto Slab", serif;
+  background: url("../bg.jpg") no-repeat fixed;
+  background-position: center;
+  background-size: 100%;
+}
+
+/************************************** Efri Hluti *********************************************/
+.haus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .vinstraMegin__vListi {
   display: flex;
+  justify-content: space-around;
+  width: 150px;
+
 }
 
 .efriHluti {
+  position: fixed;
+  top: 0;
   display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  background: #838383;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.haegraMegin__hListi,
+.vinstraMegin__vListi {
+  list-style-type: none; /* nota til að eyða dot fyrir framan listi */
+}
+
+.haegraMegin__hListi {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  padding-left: 0;
+}
+
+.bar {
+  text-decoration: none;
+}
+
+/************************************* Neðri Hluti *********************************************/
+.head__h3 {
+  font-family: "Roboto Slab";
+  font-weight: 300;
+}
+
+.nedriHluti {
+  display: flex;
+  height: 1200px; /* (100/3)*1%; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
