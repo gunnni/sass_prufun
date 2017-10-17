@@ -1,6 +1,7 @@
 /*********************************** Mynd og Comment *******************************************/
 .myndirOgComment {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .myndirOgComment__mc {
@@ -30,7 +31,7 @@
 .comment__askrift {
   margin-top: -10px;
   font-size: 13px;
-  color: #808;
+  color: #a9a9a9;
 }
 
 .hugsun--2 {
@@ -55,4 +56,7 @@
 
 .askrfit--3 {
   margin-top: -10px;
+}
+
+@media screen and (max-width: 600px) { /* frá og með 600px niður */
 }

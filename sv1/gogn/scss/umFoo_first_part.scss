@@ -10,6 +10,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 600px) { /* 400<=x<=600 */
+    display: flex;
+    flex-wrap: wrap;
+    background: #696969;
+  }
 }
 
 .fooAuglysingar__foo {
