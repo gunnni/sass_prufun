@@ -3,6 +3,9 @@ html {
   /* stylelint-disable-line */
   box-sizing: border-box; }
 
+body {
+  margin: 0; }
+
 main {
   /* stylelint-disable-line */
   max-width: 1200px;
@@ -12,11 +15,11 @@ main {
 
 section {
   /* stylelint-disable-line */
-  margin-top: 10em;
   margin-bottom: 10em; }
 
 .header {
-  max-width: 1200px;
+  width: 100%;
+  /* 1200px; */
   margin: 0 auto;
   font-family: "Roboto Slab", serif;
   background: url("../bg.jpg") no-repeat fixed;
@@ -38,7 +41,8 @@ section {
   position: fixed;
   top: 0;
   display: flex;
-  width: 1200px;
+  width: 100%;
+  /* 1200px; */
   justify-content: space-between;
   background: #838383;
   background-color: rgba(0, 0, 0, 0.4); }
@@ -178,3 +182,32 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center; }
+
+.efriFooter {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 38px;
+  color: #fff;
+  border-bottom: 2px solid #a9a9a9; }
+
+.vinstraFooter {
+  margin-right: 100px; }
+
+.haegriFooter {
+  margin-left: 100px; }
+
+.textiFooter {
+  display: flex;
+  justify-content: center;
+  margin: 8px; }
+
+.nedriFooter {
+  display: flex;
+  justify-content: center;
+  color: #a9a9a9; }
+
+.footer {
+  font-family: "Open Sans";
+  font-weight: 400;
+  background: #393939; }

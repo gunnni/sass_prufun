@@ -1,0 +1,34 @@
+.efriFooter {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 38px;
+  color: #fff;
+  border-bottom: 2px solid #a9a9a9;
+}
+
+.vinstraFooter {
+  margin-right: 100px;
+}
+
+.haegriFooter {
+  margin-left: 100px;
+}
+
+.textiFooter {
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+}
+
+.nedriFooter {
+  display: flex;
+  justify-content: center;
+  color: #a9a9a9;
+}
+
+.footer {
+  font-family: "Open Sans";
+  font-weight: 400;
+  background: #393939;
+}
